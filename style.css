@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: sans-serif;
+    color:#383847;
+    margin-left: 7%;
+}
+#caption{
+    font-family: sans-serif;
+    color: #383847;
+    margin-left: 10%;
+}
+fieldset{
+    border: 0;
+}
+body{
+    background-color: rgb(219, 217, 238);
+    font-family: sans-serif;
+    color: rgb(60, 58, 95);
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+input, select, textarea, button{
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid rgb(60, 58, 95);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.192);
+    
+}
+.field{
+    margin-bottom: 1em;
+}
+.field label{
+    margin-bottom: 0.2em;
+    color: rgb(60, 58, 95);
+    display: block;
+}
+fieldset.group .field{
+    float: left;
+    margin-right: 1em;
+} 
+.field select option{
+    padding-right: 1em;
+}
+input:focus, select:focus, textarea:focus{
+    background-color: rgb(206, 204, 233);
+}
+button{
+    font-size: 1.2em;
+    background: rgb(60, 58, 95);
+}
+#suba{
+    width: 75px;
+    height: 24px;
+    
+}
+.teste{
+    display: inline-block;
+}
